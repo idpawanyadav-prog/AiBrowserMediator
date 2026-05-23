@@ -1,0 +1,194 @@
+<Window x:Class="AiBrowserMediator.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AI Browser Mediator" Height="760" Width="1280" Background="#15171A">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility"/>
+    </Window.Resources>
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="220"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,12">
+            <TextBlock Text="AI Browser Mediator" Foreground="White" FontSize="24" FontWeight="SemiBold" VerticalAlignment="Center"/>
+            <Button Content="Open Browser" Command="{Binding OpenBrowserCommand}" Margin="24,0,0,0" Padding="14,8"/>
+            <Button Content="Capture Page Source" Command="{Binding CapturePageSourceCommand}" Margin="8,0,0,0" Padding="14,8"/>
+            <Button Content="Execute Full Workflow" Command="{Binding ExecuteWorkflowCommand}" Margin="8,0,0,0" Padding="14,8"/>
+            <Button Content="Clear Workflow" Command="{Binding ClearWorkflowCommand}" Margin="8,0,0,0" Padding="14,8"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Margin="0,0,0,12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="12"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Background="#20242A" CornerRadius="10" Padding="14">
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Top" Text="Manual Recorder" Foreground="White" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,12"/>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="12"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="0">
+                                    <TextBlock Text="Action" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                    <ComboBox ItemsSource="{Binding Actions}" SelectedItem="{Binding SelectedAction}"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="2">
+                                    <TextBlock Text="Timeout Seconds" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                    <TextBox Text="{Binding TimeoutSeconds, UpdateSourceTrigger=PropertyChanged}"/>
+                                </StackPanel>
+                            </Grid>
+
+                            <StackPanel Margin="0,12,0,0" Visibility="{Binding IsNavigateAction, Converter={StaticResource BoolToVisibility}}">
+                                <TextBlock Text="URL" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                <TextBox Text="{Binding Url, UpdateSourceTrigger=PropertyChanged}"/>
+                                <CheckBox Content="Wait until a specific control exists or shows a specific label value"
+                                          IsChecked="{Binding WaitUntilControlMatches}"
+                                          Foreground="White"
+                                          Margin="0,12,0,0"/>
+                            </StackPanel>
+
+                            <Grid Margin="0,12,0,0" Visibility="{Binding IsNonNavigateAction, Converter={StaticResource BoolToVisibility}}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="12"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="0">
+                                    <TextBlock Text="Selector Type" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                    <ComboBox ItemsSource="{Binding SelectorTypes}" SelectedItem="{Binding SelectorType}"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="2">
+                                    <TextBlock Text="Control Type" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                    <ComboBox ItemsSource="{Binding ControlTypes}" SelectedItem="{Binding SelectedControlType}"/>
+                                </StackPanel>
+                            </Grid>
+
+                            <Grid Margin="0,12,0,0" Visibility="{Binding IsNonNavigateAction, Converter={StaticResource BoolToVisibility}}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="12"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="0">
+                                    <TextBlock Text="Selector" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                    <TextBox Text="{Binding Selector, UpdateSourceTrigger=PropertyChanged}"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="2">
+                                    <TextBlock Text="Value / Expected Text" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                    <TextBox Text="{Binding Value, UpdateSourceTrigger=PropertyChanged}"/>
+                                </StackPanel>
+                            </Grid>
+
+                            <StackPanel Margin="0,12,0,0" Visibility="{Binding IsNonNavigateAction, Converter={StaticResource BoolToVisibility}}">
+                                <TextBlock Text="Function ID (optional)" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                <ComboBox ItemsSource="{Binding FunctionIds}"
+                                          SelectedItem="{Binding SelectedFunctionId}"
+                                          IsEditable="True"/>
+                            </StackPanel>
+
+                            <StackPanel Margin="0,12,0,0" Visibility="{Binding ShowNavigateWaitControls, Converter={StaticResource BoolToVisibility}}">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="12"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel Grid.Column="0">
+                                        <TextBlock Text="Wait Selector Type" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                        <ComboBox ItemsSource="{Binding SelectorTypes}" SelectedItem="{Binding SelectorType}"/>
+                                    </StackPanel>
+                                    <StackPanel Grid.Column="2">
+                                        <TextBlock Text="Wait Control Type" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                        <ComboBox ItemsSource="{Binding ControlTypes}" SelectedItem="{Binding SelectedControlType}"/>
+                                    </StackPanel>
+                                </Grid>
+                                <Grid Margin="0,12,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="12"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel Grid.Column="0">
+                                        <TextBlock Text="Wait Selector" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                        <TextBox Text="{Binding Selector, UpdateSourceTrigger=PropertyChanged}"/>
+                                    </StackPanel>
+                                    <StackPanel Grid.Column="2">
+                                        <TextBlock Text="Visible Label Value (optional)" Foreground="#B7BDC7" Margin="0,0,0,4"/>
+                                        <TextBox Text="{Binding Value, UpdateSourceTrigger=PropertyChanged}"/>
+                                    </StackPanel>
+                                </Grid>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,18,0,0">
+                                <Button Content="Execute Step" Command="{Binding ExecuteStepCommand}" Padding="14,8"/>
+                                <Button Content="Add To XML" Command="{Binding AddToFlowCommand}" Margin="8,0,0,0" Padding="14,8"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </ScrollViewer>
+                </DockPanel>
+            </Border>
+
+            <Border Grid.Column="2" Background="#20242A" CornerRadius="10" Padding="14">
+                <TabControl Background="#20242A" BorderThickness="0">
+                    <TabItem Header="XML Editor">
+                        <TextBox Text="{Binding XmlText, UpdateSourceTrigger=PropertyChanged}" AcceptsReturn="True" AcceptsTab="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" FontFamily="Consolas" FontSize="13"/>
+                    </TabItem>
+                    <TabItem Header="Page Source">
+                        <TextBox Text="{Binding PageSourceText}" IsReadOnly="True" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" FontFamily="Consolas" FontSize="12"/>
+                    </TabItem>
+                </TabControl>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.1*"/>
+                <ColumnDefinition Width="12"/>
+                <ColumnDefinition Width="1.3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Background="#20242A" CornerRadius="10" Padding="14">
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Top" Text="Workflow Preview" Foreground="White" FontSize="18" FontWeight="SemiBold" Margin="0,0,0,12"/>
+                    <ListBox ItemsSource="{Binding Steps}" Background="#15171A" Foreground="#D7DCE5"/>
+                </DockPanel>
+            </Border>
+
+            <Border Grid.Column="2" Background="#20242A" CornerRadius="10" Padding="14">
+                <TabControl Background="#20242A" BorderThickness="0">
+                    <TabItem Header="Execution Log">
+                        <ListBox ItemsSource="{Binding Logs}" Background="#15171A" Foreground="#D7DCE5"/>
+                    </TabItem>
+                    <TabItem Header="Execution History">
+                        <DataGrid ItemsSource="{Binding ExecutionHistory}"
+                                  AutoGenerateColumns="False"
+                                  IsReadOnly="True"
+                                  Background="#15171A"
+                                  Foreground="#D7DCE5"
+                                  GridLinesVisibility="Horizontal">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="#" Binding="{Binding StepId}" Width="40"/>
+                                <DataGridTextColumn Header="Action" Binding="{Binding Action}" Width="90"/>
+                                <DataGridTextColumn Header="Control" Binding="{Binding ControlType}" Width="90"/>
+                                <DataGridTextColumn Header="Locator" Binding="{Binding LocatorValue}" Width="140"/>
+                                <DataGridCheckBoxColumn Header="OK" Binding="{Binding Success}" Width="50"/>
+                                <DataGridTextColumn Header="Message" Binding="{Binding Message}" Width="*"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </TabItem>
+                </TabControl>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

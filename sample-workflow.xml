@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow sessionId="S1">
+  <Step id="1" action="navigate" url="https://example.com" timeout="20" />
+  <Step id="2" action="waitfor" timeout="5">
+    <WaitFor selectorType="css" selector="h1" expectedValue="" retryInterval="500" />
+  </Step>
+  <Step id="3" action="update" timeout="20" controlType="textbox">
+    <Locator type="id" value="my-text-id" strategy="TextBox.IdStrategy" functionId="TextBox.Id.SetValueByClearAndSendKeys" />
+    <Value>test1</Value>
+  </Step>
+</Workflow>

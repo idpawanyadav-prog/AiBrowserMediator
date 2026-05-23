@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow sessionId="S1">
+  <Step id="1" action="navigate" url="https://www.selenium.dev/selenium/web/formPage.html" timeout="20" controlType="generic" />
+  <Step id="2" action="update" timeout="20" controlType="textbox"><Locator type="id" value="email" /><Value>sample@example.com</Value></Step>
+  <Step id="3" action="update" timeout="20" controlType="textbox"><Locator type="id" value="age" /><Value>30</Value></Step>
+  <Step id="4" action="update" timeout="20" controlType="checkbox"><Locator type="id" value="checky" /><Value>true</Value></Step>
+  <Step id="5" action="update" timeout="20" controlType="checkbox"><Locator type="id" value="checkedchecky" /><Value>false</Value></Step>
+  <Step id="6" action="update" timeout="20" controlType="checkbox" skipExecution="true" skipReason="disabled control cannot be changed"><Locator type="id" value="disabledchecky" /><Value>true</Value></Step>
+  <Step id="7" action="update" timeout="20" controlType="checkbox" skipExecution="true" skipReason="disabled control cannot be changed"><Locator type="id" value="randomly_disabled_checky" /><Value>false</Value></Step>
+  <Step id="8" action="update" timeout="20" controlType="combobox"><Locator type="name" value="selectomatic" /><Value>Two</Value></Step>
+  <Step id="9" action="update" timeout="20" controlType="combobox" skipExecution="true" skipReason="multi-select is recorded but single-value update behavior is not implemented yet"><Locator type="id" value="multi" /><Value>Ham</Value></Step>
+  <Step id="10" action="update" timeout="20" controlType="combobox" skipExecution="true" skipReason="disabled control cannot be changed"><Locator type="name" value="no-select" /><Value>Foo</Value></Step>
+  <Step id="11" action="update" timeout="20" controlType="combobox" skipExecution="true" skipReason="redirecting select intentionally not executed"><Locator type="id" value="redirect" /><Value>Two</Value></Step>
+  <Step id="12" action="click" timeout="20" controlType="button" skipExecution="true" skipReason="submit control intentionally not clicked"><Locator type="id" value="submitButton" /></Step>
+  <Step id="13" action="click" timeout="20" controlType="button" skipExecution="true" skipReason="image submit control intentionally not clicked"><Locator type="id" value="imageButton" /></Step>
+  <Step id="14" action="update" timeout="20" controlType="textbox"><Locator type="id" value="working" /><Value>working sample</Value></Step>
+  <Step id="15" action="update" timeout="20" controlType="textbox" skipExecution="true" skipReason="disabled control cannot be edited"><Locator type="id" value="notWorking" /><Value>sample</Value></Step>
+  <Step id="16" action="update" timeout="20" controlType="textbox" skipExecution="true" skipReason="disabled textarea cannot be edited"><Locator type="id" value="notWorkingArea" /><Value>sample</Value></Step>
+  <Step id="17" action="update" timeout="20" controlType="textbox"><Locator type="id" value="inputWithText" /><Value>updated sample</Value></Step>
+  <Step id="18" action="update" timeout="20" controlType="textbox"><Locator type="id" value="withText" /><Value>textarea updated</Value></Step>
+  <Step id="19" action="update" timeout="20" controlType="textbox"><Locator type="id" value="emptyTextArea" /><Value>empty textarea sample</Value></Step>
+  <Step id="20" action="update" timeout="20" controlType="textbox"><Locator type="id" value="no-type" /><Value>plain input sample</Value></Step>
+  <Step id="21" action="update" timeout="20" controlType="textbox" skipExecution="true" skipReason="file upload requires an explicit local file path"><Locator type="id" value="upload" /><Value>C:\path\to\file.txt</Value></Step>
+  <Step id="22" action="update" timeout="20" controlType="textbox"><Locator type="name" value="id-name1" /><Value>name locator sample</Value></Step>
+  <Step id="23" action="update" timeout="20" controlType="textbox"><Locator type="id" value="id-name1" /><Value>id locator sample</Value></Step>
+  <Step id="24" action="update" timeout="20" controlType="textbox"><Locator type="id" value="id-name2" /><Value>second id sample</Value></Step>
+  <Step id="25" action="update" timeout="20" controlType="textbox"><Locator type="name" value="id-name2" /><Value>second name sample</Value></Step>
+  <Step id="26" action="update" timeout="20" controlType="textbox" skipExecution="true" skipReason="readonly control cannot be edited"><Locator type="name" value="readonly" /><Value>sample</Value></Step>
+  <Step id="27" action="update" timeout="20" controlType="textbox"><Locator type="name" value="x" /><Value>nested form sample</Value></Step>
+  <Step id="28" action="update" timeout="20" controlType="textbox" skipExecution="true" skipReason="disabled control cannot be edited"><Locator type="id" value="disabledTextElement1" /><Value>sample</Value></Step>
+  <Step id="29" action="update" timeout="20" controlType="textbox" skipExecution="true" skipReason="disabled control cannot be edited"><Locator type="id" value="disabledTextElement2" /><Value>sample</Value></Step>
+  <Step id="30" action="click" timeout="20" controlType="button" skipExecution="true" skipReason="submit control intentionally not clicked"><Locator type="id" value="disabledSubmitElement" /></Step>
+  <Step id="31" action="update" timeout="20" controlType="checkbox"><Locator type="id" value="checkbox-with-label" /><Value>true</Value></Step>
+  <Step id="32" action="click" timeout="20" controlType="button" skipExecution="true" skipReason="submit control intentionally not clicked"><Locator type="id" value="submit" /></Step>
+  <Step id="33" action="update" timeout="20" controlType="textbox"><Locator type="id" value="vsearchGadget" /><Value>search sample</Value></Step>
+</Workflow>
