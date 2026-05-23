@@ -1,0 +1,8 @@
+# Ignore Visual Studio workspace folder
+.vs/
+
+# Recommended: ignore user-specific and build artifacts
+bin/
+obj/
+*.user
+*.suo
