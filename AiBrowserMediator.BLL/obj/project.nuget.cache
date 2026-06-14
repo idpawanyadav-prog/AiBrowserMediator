@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FQhBc8JDmFQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.BLL\\AiBrowserMediator.BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pwnya\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.8\\microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

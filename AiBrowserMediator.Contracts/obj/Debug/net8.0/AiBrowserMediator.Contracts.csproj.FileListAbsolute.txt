@@ -1,0 +1,15 @@
+C:\Users\pwnya\Documents\Codex\2026-05-16\files-mentioned-by-the-user-complete\AiBrowserMediator\AiBrowserMediator.Contracts\artifacts\verify-build\AiBrowserMediator.Contracts.deps.json
+C:\Users\pwnya\Documents\Codex\2026-05-16\files-mentioned-by-the-user-complete\AiBrowserMediator\AiBrowserMediator.Contracts\artifacts\verify-build\AiBrowserMediator.Contracts.dll
+C:\Users\pwnya\Documents\Codex\2026-05-16\files-mentioned-by-the-user-complete\AiBrowserMediator\AiBrowserMediator.Contracts\artifacts\verify-build\AiBrowserMediator.Contracts.pdb
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\bin\Debug\net8.0\AiBrowserMediator.Contracts.deps.json
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\bin\Debug\net8.0\AiBrowserMediator.Contracts.dll
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\bin\Debug\net8.0\AiBrowserMediator.Contracts.pdb
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\obj\Debug\net8.0\AiBrowserMediator.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\obj\Debug\net8.0\AiBrowserMediator.Contracts.AssemblyInfoInputs.cache
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\obj\Debug\net8.0\AiBrowserMediator.Contracts.AssemblyInfo.cs
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\obj\Debug\net8.0\AiBrowserMediator.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\obj\Debug\net8.0\AiBrowserMediator.Contracts.sourcelink.json
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\obj\Debug\net8.0\AiBrowserMediator.Contracts.dll
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\obj\Debug\net8.0\refint\AiBrowserMediator.Contracts.dll
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\obj\Debug\net8.0\AiBrowserMediator.Contracts.pdb
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Contracts\obj\Debug\net8.0\ref\AiBrowserMediator.Contracts.dll

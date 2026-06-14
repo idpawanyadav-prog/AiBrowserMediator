@@ -1,0 +1,15 @@
+C:\Users\pwnya\Documents\Codex\2026-05-16\files-mentioned-by-the-user-complete\AiBrowserMediator\AiBrowserMediator.Shared\artifacts\verify-build\AiBrowserMediator.Shared.deps.json
+C:\Users\pwnya\Documents\Codex\2026-05-16\files-mentioned-by-the-user-complete\AiBrowserMediator\AiBrowserMediator.Shared\artifacts\verify-build\AiBrowserMediator.Shared.dll
+C:\Users\pwnya\Documents\Codex\2026-05-16\files-mentioned-by-the-user-complete\AiBrowserMediator\AiBrowserMediator.Shared\artifacts\verify-build\AiBrowserMediator.Shared.pdb
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\bin\Debug\net8.0\AiBrowserMediator.Shared.deps.json
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\bin\Debug\net8.0\AiBrowserMediator.Shared.dll
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\bin\Debug\net8.0\AiBrowserMediator.Shared.pdb
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\obj\Debug\net8.0\AiBrowserMediator.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\obj\Debug\net8.0\AiBrowserMediator.Shared.AssemblyInfoInputs.cache
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\obj\Debug\net8.0\AiBrowserMediator.Shared.AssemblyInfo.cs
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\obj\Debug\net8.0\AiBrowserMediator.Shared.csproj.CoreCompileInputs.cache
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\obj\Debug\net8.0\AiBrowserMediator.Shared.sourcelink.json
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\obj\Debug\net8.0\AiBrowserMediator.Shared.dll
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\obj\Debug\net8.0\refint\AiBrowserMediator.Shared.dll
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\obj\Debug\net8.0\AiBrowserMediator.Shared.pdb
+C:\Users\pwnya\source\repos\AiBrowserMediator\AiBrowserMediator.Shared\obj\Debug\net8.0\ref\AiBrowserMediator.Shared.dll
