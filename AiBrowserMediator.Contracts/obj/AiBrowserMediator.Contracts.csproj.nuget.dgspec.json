@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj": {}
+    "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj": {
+    "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj",
         "projectName": "AiBrowserMediator.Contracts",
-        "projectPath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj",
+        "projectPath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj",
         "packagesPath": "C:\\Users\\pwnya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

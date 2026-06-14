@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AiBrowserMediator.View")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51c632e81064f0d44b0e181881c3799a54e6c542")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98bbf5babced87f7fd1ff00c846cfcd8c7605e92")]
 [assembly: System.Reflection.AssemblyProductAttribute("AiBrowserMediator.View")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AiBrowserMediator.View")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

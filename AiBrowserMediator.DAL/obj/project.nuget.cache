@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uDISR6C96/I=",
+  "dgSpecHash": "qN9mpLhVyqw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.DAL\\AiBrowserMediator.DAL.csproj",
+  "projectFilePath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.DAL\\AiBrowserMediator.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pwnya\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.8\\microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512",
     "C:\\Users\\pwnya\\.nuget\\packages\\selenium.support\\4.44.0\\selenium.support.4.44.0.nupkg.sha512",

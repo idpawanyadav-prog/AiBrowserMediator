@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8OBBDl3E/UY=",
+  "dgSpecHash": "CiI7AXt/ZxM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.View\\AiBrowserMediator.View.csproj",
+  "projectFilePath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.View\\AiBrowserMediator.View.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pwnya\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
     "C:\\Users\\pwnya\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.8\\microsoft.extensions.dependencyinjection.10.0.8.nupkg.sha512",

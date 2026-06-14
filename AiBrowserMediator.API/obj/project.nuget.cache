@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z/fnCy3GMZQ=",
+  "dgSpecHash": "PjBdQxPOZsc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.API\\AiBrowserMediator.API.csproj",
+  "projectFilePath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.API\\AiBrowserMediator.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pwnya\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\pwnya\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.0\\microsoft.extensions.configuration.10.0.0.nupkg.sha512",

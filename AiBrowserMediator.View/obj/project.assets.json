@@ -378,11 +378,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.View\\AiBrowserMediator.View.csproj",
+      "projectUniqueName": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.View\\AiBrowserMediator.View.csproj",
       "projectName": "AiBrowserMediator.View",
-      "projectPath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.View\\AiBrowserMediator.View.csproj",
+      "projectPath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.View\\AiBrowserMediator.View.csproj",
       "packagesPath": "C:\\Users\\pwnya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.View\\obj\\",
+      "outputPath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.View\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -404,17 +404,17 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.BLL\\AiBrowserMediator.BLL.csproj": {
-              "projectPath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.BLL\\AiBrowserMediator.BLL.csproj"
+            "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.BLL\\AiBrowserMediator.BLL.csproj": {
+              "projectPath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.BLL\\AiBrowserMediator.BLL.csproj"
             },
-            "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj": {
-              "projectPath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj"
+            "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj": {
+              "projectPath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.Contracts\\AiBrowserMediator.Contracts.csproj"
             },
-            "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.DAL\\AiBrowserMediator.DAL.csproj": {
-              "projectPath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.DAL\\AiBrowserMediator.DAL.csproj"
+            "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.DAL\\AiBrowserMediator.DAL.csproj": {
+              "projectPath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.DAL\\AiBrowserMediator.DAL.csproj"
             },
-            "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.Shared\\AiBrowserMediator.Shared.csproj": {
-              "projectPath": "C:\\Users\\pwnya\\Documents\\Codex\\2026-05-16\\files-mentioned-by-the-user-complete\\AiBrowserMediator\\AiBrowserMediator.Shared\\AiBrowserMediator.Shared.csproj"
+            "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.Shared\\AiBrowserMediator.Shared.csproj": {
+              "projectPath": "C:\\Users\\pwnya\\source\\repos\\AiBrowserMediator\\AiBrowserMediator.Shared\\AiBrowserMediator.Shared.csproj"
             }
           }
         }
